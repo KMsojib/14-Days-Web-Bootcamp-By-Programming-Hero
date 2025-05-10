@@ -82,7 +82,7 @@ x **= p;
 console.log("Exponentiation Assignment: " + x);
 
 // Comparison Operators
-// ==, ===, !=, !==, >, <, >=, <=
+// ==, ===, !=, !==, >, <, >=, <= ==
 
 let j = 10;
 let k = 20;
