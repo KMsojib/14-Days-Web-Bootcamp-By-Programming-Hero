@@ -12,15 +12,15 @@ console.log("Videos: " + videos);
 console.log("Suscribers: " + suscribers);
 
 
-product_name: "Stylish Sunglasses";
-price: 99;
-originalPrice: 299;
-discount: "67%";
+// product_name: "Stylish Sunglasses";
+// price: 99;
+// originalPrice: 299;
+// discount: "67%";
 
-console.log("Product Name: " + product_name);
-console.log("Price: " + price);
-console.log("Original Price: " + originalPrice);
-console.log("Discount: " + discount);
+// console.log("Product Name: " + product_name);
+// console.log("Price: " + price);
+// console.log("Original Price: " + originalPrice);
+// console.log("Discount: " + discount);
 
 // Comments
 // This is a single line comment
@@ -134,4 +134,3 @@ else if (r < s) {
 } else {
     console.log("Both are equal");
 }
-
