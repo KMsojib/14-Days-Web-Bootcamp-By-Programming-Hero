@@ -85,3 +85,17 @@ numbers.forEach(function(number){
     console.log(number);
 })
 
+
+
+/* ------------------------------- Task ------------------------------------ */
+
+// For a given array with prices of 5 items - [250,654,789, 456, 123] - remove 10% of every item and print the final price of each item
+
+let prices = [250, 654, 789, 456, 123]
+let finalPrices = 0;
+for (let i = 0; i < prices.length; i++){
+    let discount = prices[i] * 0.10
+    finalPrices += (prices[i] - discount)
+}
+
+console.log(finalPrices)
