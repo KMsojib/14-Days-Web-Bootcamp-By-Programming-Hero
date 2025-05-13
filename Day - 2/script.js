@@ -99,3 +99,25 @@ for (let i = 0; i < prices.length; i++){
 }
 
 console.log(finalPrices)
+
+
+
+/* Practice Question - 01 */
+let score = prompt("Enter your score (0-100)");
+let grade;
+
+if(score >= 90 && score <= 100){
+    grade = 'A+';
+}else if(grade >= 70 && score <= 89){
+    grade = 'A';
+}else if(grade >= 60 && score <= 79){
+    grade = 'B';
+}else if(grade >= 50 && grade <= 59){
+    grade = 'C';
+}else if(grade >= 40 && grade <= 49){
+    grade = 'D';
+}else{
+    grade = 'F';
+}
+
+console.log("According to your score, your grade was : ",grade);
